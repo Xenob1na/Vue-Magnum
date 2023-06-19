@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-[1170px] mx-auto mt-[100px]">
+    <div class="max-w-[1170px] mx-auto mt-[100px]" ref="porto">
         <div class="flex justify-between mb-2">
             <h2 class="text-[50px] leading-[130%] uppercase font-bold text-[#0D2344]">Почему <span class="text-[#F3970A]">мы</span></h2>
             <img src="/img/f3.svg" alt="">

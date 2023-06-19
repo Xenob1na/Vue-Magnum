@@ -2,11 +2,11 @@
     <div class="mt-8 text-center">
         <header class="max-w-[1170px] mx-auto bg-[#fff] rounded-3xl border-solid border-2 border-[#E6E9EF] flex justify-between text-center py-[13px] px-[30px]">
             <!-- Logo -->
-            <img src="/img/Logo.svg" alt="">
+          <router-link to="/"><img src="/img/Logo.svg" alt=""></router-link>
             <!-- nav -->
             <nav class="text-center mt-[10px]">
                 <ul class="flex gap-6 cursor-pointer text-[#F3970A] font-medium text-[18px] p-[10px] text-center">
-                    <li class="hover:underline decoration-2" v-for="(navs, index) in nav"><a :href="navs.path">{{ navs.name }}</a></li>
+                    <li class="hover:underline decoration-2" v-for="(navs, index) in nav"><RouterLink :to="navs.path">{{ navs.name }}</RouterLink></li>
                 </ul>
             </nav>
             <!-- btn -->
@@ -18,24 +18,24 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, toValue } from 'vue';
 
 const nav = ref([
     {
         name: 'Почему мы',
-        path: '#Why_are_we'
+        path: '/Why_are_we'
     },
     {
         name: 'О Комании',
-        path: '#About_company'
+        path: '/About'
     },
     {
         name: 'Услуги',
-        path: '#Services'
+        path: '/Services'
     },
     {
         name: 'Контакты',
-        path: '#Contact'
+        path: '/Contact'
     },
 ])
 </script>
