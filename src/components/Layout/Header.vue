@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-8 text-center">
+    <div class="mt-8 text-center" v-motion-pop-visible>
         <header class="max-w-[1170px] mx-auto bg-[#fff] rounded-3xl border-solid border-2 border-[#E6E9EF] flex justify-between text-center py-[13px] px-[30px]">
             <!-- Logo -->
           <router-link to="/"><img src="/img/Logo.svg" alt=""></router-link>
@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import { ref, toValue } from 'vue';
+import { ref } from 'vue';
 
 const nav = ref([
     {
@@ -38,4 +38,5 @@ const nav = ref([
         path: '/Contact'
     },
 ])
+
 </script>

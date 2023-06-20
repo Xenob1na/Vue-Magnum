@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div v-motion-pop-visible>
         <div class="flex justify-between mb-2 mt-[120px]">
             <h2 class="text-[45px] leading-[130%] uppercase font-bold text-[#0D2344]">Наши <span class="text-[#F3970A]">Плюсы</span></h2>
             <img src="/img/f3.svg" alt="">

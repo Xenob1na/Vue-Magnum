@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[url('/img/f2.png')] h-[220px] bg-no-repeat bg-cover mt-[110px]">
+    <div class="bg-[url('/img/f2.png')] h-[220px] bg-no-repeat bg-cover mt-[110px]" v-motion-pop-visible>
         <div class="max-w-[1200px] mx-auto flex justify-between pt-[57px]">
             <div>
                 <h3 class="font-bold text-white text-[43px] text-center">18+</h3>

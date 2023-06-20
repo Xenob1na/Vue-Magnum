@@ -1,12 +1,12 @@
 <template>
-    <div class="max-w-[1170px] mx-auto mt-[120px]">
+    <div class="max-w-[1170px] mx-auto mt-[120px]" v-motion-pop-visible>
         <hr class="border-solid border-2 border-[#FFB800]">
             <div class="text-center">
                 <footer class="flex justify-between text-center py-[40px]">
                     <img src="/img/Logo.svg" alt="">
                     <nav class="text-center mt-[10px]">
                         <ul class="flex gap-6 cursor-pointer text-[#F3970A] font-medium text-[18px] p-[10px] text-center">
-                            <li class="hover:underline decoration-2" v-for="(navs, index) in nav"><a :href="navs.path">{{ navs.name }}</a></li>
+                            <li class="hover:underline decoration-2" v-for="(navs, index) in nav"><RouterLink :to="navs.path">{{ navs.name }}</RouterLink></li>
                         </ul>
                     </nav>
                 </footer>
@@ -24,19 +24,19 @@ import { ref } from 'vue';
 const nav = ref([
     {
         name: 'Почему мы',
-        path: '#Why_are_we'
+        path: '/Why_are_we'
     },
     {
         name: 'О Комании',
-        path: '#About_company'
+        path: '/About'
     },
     {
         name: 'Услуги',
-        path: '#Services'
+        path: '/Services'
     },
     {
         name: 'Контакты',
-        path: '#Contact'
+        path: '/Contact'
     },
 ])
 </script>

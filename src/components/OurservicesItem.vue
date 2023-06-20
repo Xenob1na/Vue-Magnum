@@ -4,7 +4,9 @@
   <img :src="OurService.img2" alt=""  class="absolute left-[140px] top-[135px] z-[1] f7"/>
   <h3 class="title absolute top-[240px] left-[43px] right-[43px] font-semibold text-white text-[18px] text-center">{{ OurService.title }}</h3>
   <div class="overlay"></div>
-  <button class="text-[#FFB800] left-[60px] border-solid border-2 border-[#FFB800] px-[74px] py-4 rounded-[12px] hover:bg-[#FFB800] hover:text-white button">Подробнее</button>
+  <router-link :to="{path: `/Services/${OurService.id}`}">
+    <button class="text-[#FFB800] left-[60px] border-solid border-2 border-[#FFB800] px-[74px] py-4 rounded-[12px] hover:bg-[#FFB800] hover:text-white button">Подробнее</button>
+  </router-link>
 </div>
 </template>
 

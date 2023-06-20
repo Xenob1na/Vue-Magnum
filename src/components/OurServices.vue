@@ -1,10 +1,10 @@
 <template>
     <div class="max-w-[1170px] mx-auto mt-[120px]">
-        <div class="flex justify-between mb-[40px]">
+        <div class="flex justify-between mb-[40px]" v-motion-pop-visible>
             <h2 class="text-[45px] leading-[130%] uppercase font-bold text-[#0D2344]">Наши <span class="text-[#F3970A]">услуги</span></h2>
             <img src="/img/f3.svg" alt="">
         </div>
-        <div class="flex justify-between">
+        <div class="flex justify-between" v-motion-pop-visible>
             <OurservicesItem 
                 v-for="(services, index) in service"
                 :key="services.id"
