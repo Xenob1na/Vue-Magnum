@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="text-center mt-[60px]">
-            <RouterLink to="/about"><button class="text-[#fff] bg-[#FFB800] px-[92px] py-6 rounded-[12px] hover:bg-[#FFCA42] text-[18px]">Подробнее</button></RouterLink>
+            <RouterLink to="/About"><button class="text-[#fff] bg-[#FFB800] px-[92px] py-6 rounded-[12px] hover:bg-[#FFCA42] text-[18px]">Подробнее</button></RouterLink>
         </div>
     </div>
 </template>

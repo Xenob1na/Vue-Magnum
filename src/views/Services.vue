@@ -1,9 +1,8 @@
 <template>
     <div class="max-w-[1170px] mx-auto mt-[120px]">
         <div class="bg-[url('/img/f14.png')] h-[319px] bg-no-repeat bg-cover text-center">
-            <h1 class="text-[#F3970A] text-[40px] font-extrabold pt-[52px] uppercase">{{ OurServices.title }}</h1>
+            <h1 class="text-[#F3970A] text-[40px] font-extrabold pt-[106px] uppercase">{{ OurServices.title }}</h1>
             <p class="pt-4 font-bold text-[20px] text-[#FFB800]">{{ OurServices.price }}</p>
-            <button class="text-[#fff] mt-[49px] bg-[#FFB800] px-[68px] py-4 rounded-[12px] hover:bg-[#FFCA42] text-[18px]">Заказать</button>
         </div>
         <div class="mt-10 max-w-[780px] mx-auto mb-10">
             <p class="text-[20px] font-medium text-[#0D2344]/[0.8]">
@@ -23,23 +22,22 @@
                 {{ OurServices.body2 }}
             </p>
         </div>
-        <Contact />
+        <ContactOrder />
     </div>
 </template>
 
 <script>
-import Contact from '../components/Contact.vue';
+import ContactOrder from '../components/ContactOrder.vue';
 import OurService from '../mocks/OurService';
-
 
 export default {
     data() {
         return {
-            inboxs: null
+            inboxs: null,
         }
     },
     components: {
-        Contact
+        ContactOrder,
     },
     created() {
         const OurServices = OurService.find(OurServices => OurServices.id == this.$route.params.id)
