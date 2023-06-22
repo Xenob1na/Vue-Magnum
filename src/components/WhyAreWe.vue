@@ -17,7 +17,7 @@
         </div>
     </div>
 </template>
-
+<!-- grid justify-items-center -->
 <script setup>
 import { ref } from 'vue';
 

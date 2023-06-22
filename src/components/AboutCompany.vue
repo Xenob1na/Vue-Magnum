@@ -1,7 +1,7 @@
 <template>
     <div class="max-w-[1170px] mx-auto mt-[120px] lg2:mx-5">
         <div class="flex justify-between mb-2" v-motion-pop-visible>
-            <img src="/img/f3.svg" alt="" class="rotate-[-180deg] lg2:max-w-[700px] lg4:hidden">
+            <img src="/img/f3.svg" alt="" class="rotate-[-180deg] lg2:max-w-[700px] lg4:hidden lg3:max-w-[650px]">
             <h2 class="text-[50px] leading-[130%] uppercase font-bold text-[#0D2344] lg2:text-[45px]">О <span class="text-[#F3970A]">Компании</span></h2>
         </div>
         <div class="max-w-[700px]" v-motion-pop-visible>
@@ -13,8 +13,8 @@
            </p>
         </div>
         <hr class="border-solid border-2 border-[#FFB800]" v-motion-pop-visible>
-        <div class="inline-grid grid-cols-2 gap-[30px] max-w-[960px] mt-[44px]" v-motion-pop-visible>
-            <div class="max-w-[430px]" v-for="(abouts, index) in about">
+        <div class="inline-grid grid-cols-2 gap-[30px] max-w-[960px] mt-[44px] sm2:grid-cols-1" v-motion-pop-visible>
+            <div class="max-w-[430px] sm2:max-w-[900px]" v-for="(abouts, index) in about">
                 <h4 class="text-[22px] font-bold text-[#0D2344]">{{ abouts.title }}</h4>
                 <p class="text-[18px] font-medium text-[#0D2344]/[0.8]">{{ abouts.body }}</p>
             </div>

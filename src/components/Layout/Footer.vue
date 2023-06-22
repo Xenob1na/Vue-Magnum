@@ -1,14 +1,16 @@
 <template>
-    <div class="max-w-[1170px] mx-auto mt-[120px]" v-motion-pop-visible>
+    <div class="max-w-[1170px] mx-auto mt-[120px] " v-motion-pop-visible>
         <hr class="border-solid border-2 border-[#FFB800]">
             <div class="text-center">
-                <footer class="flex justify-between text-center py-[40px]">
-                    <img src="/img/Logo.svg" alt="">
-                    <nav class="text-center mt-[10px]">
-                        <ul class="flex gap-6 cursor-pointer text-[#F3970A] font-medium text-[18px] p-[10px] text-center">
-                            <li class="hover:underline decoration-2" v-for="(navs, index) in nav"><RouterLink :to="navs.path">{{ navs.name }}</RouterLink></li>
+                <footer class="flex justify-between  py-[40px] xs2:flow-root ">
+                    <div class="flex justify-center">
+                        <img src="/img/Logo.svg" alt="">
+                    </div>
+                    <div class="mt-[10px]">
+                        <ul class="flex gap-6 cursor-pointer text-[#F3970A] font-medium text-[18px] p-[10px]  xs2:flow-root">
+                            <li class="hover:underline decoration-2 mb-2" v-for="(navs, index) in nav"><RouterLink :to="navs.path">{{ navs.name }}</RouterLink></li>
                         </ul>
-                    </nav>
+                    </div>
                 </footer>
             </div>
         <hr class="border-solid border-2 border-[#FFB800]">

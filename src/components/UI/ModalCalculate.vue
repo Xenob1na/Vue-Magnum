@@ -50,7 +50,7 @@
                               </select>
                           </div>
                       </div>
-                      <button class="text-[17px] text-white text-center bg-[#FFB800] rounded-[12px] py-5 min-w-[480px] mt-5 hover:bg-[#FFCA42]">Отправить</button>
+                      <button class="text-[17px] text-white text-center bg-[#FFB800] rounded-[12px] py-5 px-3 mt-5 hover:bg-[#FFCA42]">Отправить</button>
                   </form>
                   <p class="mt-6 text-[15px] text-white leading-[130%] text-center">После заполнения формы, на вашу почту прийдет письмо с ответом.</p>
                 </div>
@@ -83,7 +83,6 @@ defineProps({
     cursor: pointer;
   }
 .container {
-    margin-top: 15%;
     padding: 40px;
 }   
 </style>

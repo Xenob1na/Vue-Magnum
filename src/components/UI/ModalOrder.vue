@@ -32,7 +32,7 @@
                               <textarea id="description" rows="8" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Напишите ваш вопрос."></textarea>
                           </div>
                       </div>
-                      <button class="text-[17px] text-white text-center bg-[#FFB800] rounded-[12px] py-5 min-w-[480px] mt-5 hover:bg-[#FFCA42]">Отправить</button>
+                      <button class="text-[17px] text-white text-center bg-[#FFB800] rounded-[12px] py-5 px-3 mt-5 hover:bg-[#FFCA42]">Отправить</button>
                   </form>
                   <p class="mt-6 text-[15px] text-white leading-[130%] text-center">После заполнения формы, мы с вами свяжемся для продолжения работы.</p>
                 </div>
