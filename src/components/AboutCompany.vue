@@ -1,8 +1,8 @@
 <template>
-    <div class="max-w-[1170px] mx-auto mt-[120px]">
+    <div class="max-w-[1170px] mx-auto mt-[120px] lg2:mx-5">
         <div class="flex justify-between mb-2" v-motion-pop-visible>
-            <img src="/img/f3.svg" alt="" class="rotate-[-180deg]">
-            <h2 class="text-[50px] leading-[130%] uppercase font-bold text-[#0D2344]">О <span class="text-[#F3970A]">Компании</span></h2>
+            <img src="/img/f3.svg" alt="" class="rotate-[-180deg] lg2:max-w-[700px] lg4:hidden">
+            <h2 class="text-[50px] leading-[130%] uppercase font-bold text-[#0D2344] lg2:text-[45px]">О <span class="text-[#F3970A]">Компании</span></h2>
         </div>
         <div class="max-w-[700px]" v-motion-pop-visible>
             <p class="text-[#0D2344]/[0.8] text-[18px] leading-[130%] mb-7">
