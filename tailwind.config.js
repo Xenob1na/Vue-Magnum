@@ -18,6 +18,7 @@ module.exports = {
       lg4: {max: '1060px'},
       md2: {max: '850px'},
       sm2: {max: '770px'},
+      sm3: {max: '670px'},
       xs2: {max: '580px'},
       xs3: {max: '460px'},
     }

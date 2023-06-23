@@ -11,7 +11,11 @@ const Modal = ref({
 })
 
 const TogglePopup = (trigger) => {
-    Modal.value[trigger] = !Modal.value[trigger]
+    if (Modal.value[trigger] = !Modal.value[trigger]) {
+        let documentBody = document.getElementsByTagName('body')[0]
+        documentBody.style.overflow = 'hidden'
+        documentBody.style.position = 'fixed'
+    }
 }
 
 const navBurger = ref(false)

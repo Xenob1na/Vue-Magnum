@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="modal fixed z-[1] left-0 top-0 w-[100%] h-[100%] pt-[50px] overflow-auto">
-			<div class="bg-gray-900 w-[30%] rounded-[5px] mx-auto lgMax:w-[50%] lg2:w-[60%] lgMax1:w-[40%]">
+			<div class="bg-gray-900 w-[30%] rounded-[5px] mx-auto lg2:w-[60%] lgMax1:w-[40%] sm3:w-[80%]">
 				<div class="container">
                     <span class="close text-[#aaa] float-right text-[28px] mb-[30px] font-semibold" @click="TogglePopup()">&times;</span>
                     <form action="#" class="mt-10">
