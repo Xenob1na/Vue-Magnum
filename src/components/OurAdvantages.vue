@@ -1,12 +1,12 @@
 <template>
     <div v-motion-pop-visible>
         <div class="flex justify-between mb-2 mt-[120px]">
-            <h2 class="text-[45px] leading-[130%] uppercase font-bold text-[#0D2344]">Наши <span class="text-[#F3970A]">Плюсы</span></h2>
-            <img src="/img/f3.svg" alt="">
+            <h2 class="text-[45px] leading-[130%] uppercase font-bold text-[#0D2344] lg2:text-[40px]">Наши <span class="text-[#F3970A]">Плюсы</span></h2>
+            <img src="/img/f3.svg" alt="" class="lg2:max-w-[700px] lg4:hidden lg3:max-w-[670px]">
         </div>
         <div>
-            <div class="inline-grid grid-cols-2 gap-[30px] max-w-[960px] mt-[44px]">
-                <div class="max-w-[430px]" v-for="(abouts, index) in about">
+            <div class="inline-grid grid-cols-2 gap-[30px] max-w-[960px] mt-[44px] sm2:grid-cols-1">
+                <div class="max-w-[430px] sm2:max-w-[700px]" v-for="(abouts, index) in about">
                     <h4 class="text-[22px] font-bold text-[#0D2344]">{{ abouts.title }}</h4>
                     <p class="text-[18px] font-medium text-[#0D2344]/[0.8]">{{ abouts.body }}</p>
                 </div>

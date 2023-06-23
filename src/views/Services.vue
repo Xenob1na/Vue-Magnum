@@ -1,7 +1,7 @@
 <template>
-    <div class="max-w-[1170px] mx-auto mt-[120px]">
-        <div class="bg-[url('/img/f14.png')] h-[319px] bg-no-repeat bg-cover text-center">
-            <h1 class="text-[#F3970A] text-[40px] font-extrabold pt-[106px] uppercase">{{ OurServices.title }}</h1>
+    <div class="max-w-[1170px] mx-auto mt-[120px] lg2:mx-5">
+        <div class="bg-[url('/img/f14.png')] h-[319px] bg-no-repeat bg-cover text-center bg-center">
+            <h1 class="text-[#F3970A] text-[40px] font-extrabold pt-[106px] uppercase sm2:pt-[90px]">{{ OurServices.title }}</h1>
             <p class="pt-4 font-bold text-[20px] text-[#FFB800]">{{ OurServices.price }}</p>
         </div>
         <div class="mt-10 max-w-[780px] mx-auto mb-10">

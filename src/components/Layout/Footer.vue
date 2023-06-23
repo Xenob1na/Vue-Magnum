@@ -1,8 +1,8 @@
 <template>
-    <div class="max-w-[1170px] mx-auto mt-[120px] " v-motion-pop-visible>
+    <div class="max-w-[1170px] mx-auto mt-[120px]" v-motion-pop-visible>
         <hr class="border-solid border-2 border-[#FFB800]">
             <div class="text-center">
-                <footer class="flex justify-between  py-[40px] xs2:flow-root ">
+                <footer class="flex justify-between  py-[40px] xs2:flow-root">
                     <div class="flex justify-center">
                         <img src="/img/Logo.svg" alt="">
                     </div>
