@@ -21,22 +21,22 @@ import { ref } from 'vue';
 const service = ref([
     {   
         id: 1,
-        img1: '/img/f10.png',
-        img2: '/img/f7.svg',
+        img1: 'img/f10.png',
+        img2: 'img/f7.svg',
         title: 'Доставка сборным грузом',
         price: 'от 3 000 рублей'
     },
     {   
         id: 2,
-        img1: '/img/f11.png',
-        img2: '/img/f8.svg',
+        img1: 'img/f11.png',
+        img2: 'img/f8.svg',
         title: 'Перевозка негабаритных грузов',
         price: 'от 20 000 рублей'
     },
     {   
         id: 3,
-        img1: '/img/f12.png',
-        img2: '/img/f9.svg',
+        img1: 'img/f12.png',
+        img2: 'img/f9.svg',
         title: 'Перевозки автотранспортом по ХМАО и ЯНАО',
         price: 'от 10 000 рублей'
     }
