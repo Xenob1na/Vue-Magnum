@@ -23,15 +23,15 @@ import { ref } from 'vue';
 
 const Advantage = ref([
     {
-       img: '/img/f4.svg',
+       img: 'img/f4.svg',
        title: 'Оперативность' 
     },
     {
-       img: '/img/f5.svg',
+       img: 'img/f5.svg',
        title: 'Качественность' 
     },
     {
-       img: '/img/f6.svg',
+       img: 'img/f6.svg',
        title: 'Надежность' 
     },
 ])
